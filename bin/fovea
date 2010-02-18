@@ -1,0 +1,4 @@
+#!/usr/bin/ruby
+require File.join(File.dirname(__FILE__),'..','config','boot')
+
+Fovea::CLI.run

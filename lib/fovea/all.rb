@@ -1,0 +1,6 @@
+require 'fovea'
+require 'fovea/client'
+require 'fovea/store'
+require 'fovea/cli'
+require 'fovea/watchr_factory'
+require 'fovea/config'
