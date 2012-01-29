@@ -1,33 +1,33 @@
---- 
-dependencies: 
-  watchr: 
-    group: 
+---
+dependencies:
+  watchr:
+    group:
     - :default
     version: ">= 0"
-  terminal-color: 
-    group: 
+  terminal-color:
+    group:
     - :default
     version: ">= 0"
-  aws-s3: 
-    group: 
+  aws-s3:
+    group:
     - :default
     version: ">= 0"
-    require: 
+    require:
     - aws/s3
-specs: 
-- xml-simple: 
+specs:
+- xml-simple:
     version: 1.0.12
-- builder: 
+- builder:
     version: 2.1.2
-- terminal-color: 
+- terminal-color:
     version: 0.1.0
-- watchr: 
+- watchr:
     version: "0.6"
-- mime-types: 
+- mime-types:
     version: "1.16"
-- aws-s3: 
+- aws-s3:
     version: 0.6.2
 hash: 5f10700b2c6d65d4eeb80aa1e12b7a98472662e3
-sources: 
-- Rubygems: 
+sources:
+- Rubygems:
     uri: http://gemcutter.org

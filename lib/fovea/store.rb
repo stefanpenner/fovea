@@ -17,12 +17,12 @@ class Store
 
   def has_key?(key)
   end
-   
+
   def store(key,value)
     AWS::S3::S3Object.store(key,value,@namespace)
   end
   alias :[]= :store
-  
+
 
   def update_key(key,options)
 

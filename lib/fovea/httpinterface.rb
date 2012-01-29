@@ -4,7 +4,7 @@ module Fovea
     def initialize(handler)
       @handler = handler
     end
-    
+
     def get(filename, remote_server)
       @handler.get(filename, remote_server)
     end

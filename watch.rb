@@ -26,12 +26,12 @@ class Store
 
   def has_key?(key)
   end
-   
+
   def store(key,value)
     AWS::S3::S3Object.store(key,value,@namespace)
   end
   alias :[]= :store
-  
+
 
   def update_key(key,options)
 
@@ -46,7 +46,7 @@ end
 
 @store = Store.new(:namespace => 'stefanpenner')
 
-watch('(./?)+') do |file| 
+watch('(./?)+') do |file|
   file = file.to_s
 
   if @store[file] = open(file)
