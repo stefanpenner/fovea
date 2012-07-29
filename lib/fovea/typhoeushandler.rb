@@ -10,7 +10,7 @@ module Fovea
     end
 
 
-    
+
     def initialize
       @hydra = Typhoeus::Hydra.new
       def @hydra.<<(request)
@@ -18,7 +18,7 @@ module Fovea
       end
     end
 
-    
+
     def get(filename, remote_server)
 
       #must be implemented
